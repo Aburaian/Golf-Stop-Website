@@ -138,6 +138,51 @@ font-size: 24px;
 .inner:hover img {
     transform: scale(1.5);
 }
+.icon {
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+.explined-area {
+    background-color: #243531;
+}
+
+.explined-title {
+    color: #eac376;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 34px;
+    letter-spacing: 3px;
+}
+
+.explined-sub-title {
+    color: #FFFFFF;
+ font-size: 52px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+
+.img-area {
+    border-radius: 12px;
+}
+
+.read-btn {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    color: #d07d54;
+    fill: #d07d54;
+
+}
+
+.read-icon {
+color: #d07d54;
+    fill: #d07d54;
+    font-size: 20px;
+}
+
 
 
 
