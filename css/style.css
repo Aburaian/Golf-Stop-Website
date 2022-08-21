@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+font-family: 'Inter', sans-serif;
+}
+
+
+/* nav menu css */
+.offcanvas-body {
+    background-color: #243531;
+    height: 50px;
+}
+
+
+.dropdown-menu {
+    background-color: #243531;
+    
+}
+.dropdown-item {
+color: #FFFFFF;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #024132;
+}
+
+/* hero section */
+.hero {
+    padding: 60px;
+    height: 600px;
+}
+.hero-photo {
+    background-color: #000000;
+}
+.hero-title {
+    color: #EAC376;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 34px;
+    letter-spacing: 3px;
+}
+.hero-sub-title {
+    color: #fff;
+    font-size: 96px;
+    line-height: 92px;
+    letter-spacing: -2px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.btn-book {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;  
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ a:hover{
+     color: #e9ecef !important;
+}
+
+.btn-hero {
+    
+    background-color: #ac4d1e;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #AC4D1E;
+    border-radius: 50px 50px 50px 50px;
+    padding: 16px 32px;
+}
+
+.btn-Facilities {
+    fill: #FFFFFF ;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: #ac4d1e00;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 50px 50px 50px 50px;
+    padding: 16px 32px;
+    
+}
+
+
+.btn-outline-secondary:hover {
+    color: #000;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    font-weight: 500;
+}
+/* facilities section style */
+.facilities {
+    background-color: #1b2b27;
+   
+}
+
+.facilities-title {
+    color: #FFFFFF;
+    margin-top: 60px;
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 42px;
+    letter-spacing: -0.1px;
+    margin-bottom: 20px;
+}
+
+/* card style */
+.card-body-color {
+background-color: #eac376;
+}
+.facilities-card-title {
+font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 24px;
+    letter-spacing: 1.2px;
+    color: #3e3e3e;
+}
+.facilities-card-text {
+font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -.1px;
+    color: #2f210c;
+}
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+}
+.inner:hover img {
+    transform: scale(1.5);
+}
+
+
+
