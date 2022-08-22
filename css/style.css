@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
+* {
+    margin: 0;
+padding: 0;
+}
 body {
 font-family: 'Inter', sans-serif;
 }
@@ -143,11 +147,11 @@ font-size: 24px;
     font-weight: 900;
 }
 
-.explined-area {
+.global-area {
     background-color: #243531;
 }
 
-.explined-title {
+.global-title {
     color: #eac376;
     font-size: 24px;
     font-weight: 500;
@@ -156,7 +160,7 @@ font-size: 24px;
     letter-spacing: 3px;
 }
 
-.explined-sub-title {
+.global-sub-title {
     color: #FFFFFF;
  font-size: 52px;
     font-weight: 700;
@@ -176,12 +180,33 @@ font-size: 24px;
     fill: #d07d54;
 
 }
+.icon {
+    font-size: 20px;
+    color: #FFFFFF;
+}
 
 .read-icon {
 color: #d07d54;
-    fill: #d07d54;
-    font-size: 20px;
+fill: #d07d54;
+font-size: 20px;
 }
+
+.golf-play {
+    padding-top:100px;
+    padding-bottom: 40px;
+}
+
+.box {
+    background-color: #d07d54;
+    box-shadow: 0 20px 64px 0 rgb(0 0 0 / 24%);
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    padding: 20px;
+    z-index: 3;
+    margin-left: -11px;
+    margin-right: -11px;
+    border-radius: 0 0 12px 12px;
+}
+
 
 
 
