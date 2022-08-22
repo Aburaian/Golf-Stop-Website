@@ -149,6 +149,7 @@ font-size: 24px;
 
 .global-area {
     background-color: #243531;
+    
 }
 
 .global-title {
@@ -206,6 +207,24 @@ font-size: 20px;
     margin-right: -11px;
     border-radius: 0 0 12px 12px;
 }
+
+
+
+.memberships {
+    background-image: url(https://ruffgolf.se/wp-content/uploads/2021/09/rectangle-186-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+
+  
+}
+
+
+
+
+
+
 
 
 
