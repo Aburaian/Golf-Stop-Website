@@ -181,6 +181,9 @@ font-size: 24px;
     fill: #d07d54;
 
 }
+.btn-hover:hover {
+color: #FFFFFF !important;
+}
 .icon {
     font-size: 20px;
     color: #FFFFFF;
@@ -226,6 +229,16 @@ font-size: 20px;
     padding-top: 60px;
 }
 
+/* membership page css */
+.membership-bg-hero {
+   background-image: url(https://ruffgolf.se/wp-content/uploads/2021/06/medlemskap-header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
 .footer-area {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -241,6 +254,11 @@ font-size: 20px;
     background-color: gray;
      }
 
+@media only screen and (max-width: 768px) {
+  header section {
+    width: 100%;
+  }
+}
      
 
 
