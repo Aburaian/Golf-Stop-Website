@@ -239,6 +239,15 @@ font-size: 20px;
     width: 100%;
 }
 
+.food-bg {
+    background-image: url(https://playxgolf.com/wp-content/uploads/2021/09/X-Golf-Food-and-Bar-Cheers-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 600px;
+    width: 100%;
+}
+
 .footer-area {
     padding-top: 100px;
     padding-bottom: 50px;
