@@ -290,6 +290,10 @@ font-size: 20px;
     padding-bottom: 50px;
 }
 
+.footer-dropdown{
+    font-size: 10px;
+}
+
 .footer-link {
     color: #d07d54;;
 }
