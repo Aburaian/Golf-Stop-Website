@@ -304,8 +304,16 @@ font-size: 20px;
     background-color: gray;
      }
 
+@media screen and (max-width: 480px) {
+    .hero {
+        width: 100%;
+    }
+     
+}
+
+
 @media only screen and (max-width: 768px) {
-  header section {
+  header{
     width: 100%;
   }
 }
