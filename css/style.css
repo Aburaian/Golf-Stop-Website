@@ -37,7 +37,7 @@ color: #FFFFFF;
 
 /* hero section */
 .hero {
-    padding: 60px;
+    padding: 200px;
     height: 600px;
 }
 .hero-photo {
@@ -58,6 +58,31 @@ color: #FFFFFF;
     letter-spacing: -2px;
     font-weight: 700;
     padding-bottom: 20px;
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.page-hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-video-content {
+    position: relative;
+    z-index: 1;
+}
+
+video[poster] {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .btn-book {
@@ -108,6 +133,11 @@ color: #FFFFFF;
 .facilities {
     background-color: #1b2b27;
    
+}
+
+.facilities-area {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .facilities-title {
