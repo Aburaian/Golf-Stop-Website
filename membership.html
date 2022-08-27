@@ -12,44 +12,59 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-dark bg-dark p-4">
-   <div class="container-lg container-md container-sm">
+  <nav class="navbar navbar-dark bg-dark p-4 fixed-top">
+  <div class="container-lg container-md container-sm">
     <a class="navbar-brand" href="index.html">
       <img src="https://ruffgolf.se/wp-content/uploads/2021/06/ruff.svg" alt="" width="139" height="44">
     </a>
+      <ul class="navbar-nav flex-row text-end ms-auto mb-2 mb-lg-0">
+         <li class="nav-item me-2">
+          <a class="nav-link" href="#">About</a>
+        </li>
+         <li class="nav-item me-2 ms-2">
+          <a class="nav-link" href="#">Book a Tee Time</a>
+        </li>
+      </ul>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+
+
+
+    <button class="navbar-toggler border-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarScroll">
-      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll flex-end" style="--bs-scroll-height: 400px;">
-        <li class="nav-item dropdown">
-          <a class="nav-link text-light dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Play
-          </a>
-          <ul class="dropdown-menu w-25 text-center">
-            <li><a class="dropdown-item" href="membership.html">Memberships</a></li>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header bg-dark">
+        <a class="offcanvas-title" id="offcanvasNavbarLabel" href="index.html">
+      <img src="https://ruffgolf.se/wp-content/uploads/2021/06/ruff.svg" alt="" width="139" height="44">
+    </a>
+        <button type="button" class="btn-close border border-4 border-success text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body bg-dark text-center">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item dropdown">
+            <a class="nav-link text-light dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Play
+            </a>
+            <ul class="dropdown-menu mx-auto  text-center" aria-labelledby="offcanvasNavbarDropdown">
+              <li><a class="dropdown-item" href="membership.html">Memberships</a></li>
             <li><a class="dropdown-item" href="#">Tournaments</a></li>
             <li><a class="dropdown-item" href="#">Book a Tee Time</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link text-light dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            About
-          </a>
-          <ul class="dropdown-menu w-25 text-center">
-            <li><a class="dropdown-item" href="#">Benefits of Simulator Golf</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-light dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About
+            </a>
+            <ul class="dropdown-menu mx-auto text-center" aria-labelledby="offcanvasNavbarDropdown">
+              <li><a class="dropdown-item" href="#">Benefits of Simulator Golf</a></li>
             <li><a class="dropdown-item" href="food.html">Food and Drinks</a></li>
             <li><a class="dropdown-item" href="#">Find Golf Stop Location</a></li>
-          </ul>
-        </li>
-        <li class="nav-item"><a class="text-decoration-none text-light" href="#">Contact</a></li>
-      </ul>
+        </ul>
+         <li class="nav-item"><a class="text-decoration-none text-light" href="#contract">Contact</a></li>
+      </div>
     </div>
   </div>
 </nav>
-
-<!-- nav menu ends -->
 </header>
 <main>
     <section class="membership-bg-hero d-flex align-items-center   align-self-center justify-content-center flex-column ">

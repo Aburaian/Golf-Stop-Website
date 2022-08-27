@@ -15,10 +15,17 @@ font-family: 'Inter', sans-serif;
     height: 50px;
 }
 
+.offcanvas-end {
+    width: 100%;
+}
+
 
 .dropdown-menu {
     background-color: #243531;
     
+}
+.navbar-nav .dropdown-menu {
+    width: 35%;
 }
 .dropdown-item {
 color: #FFFFFF;
