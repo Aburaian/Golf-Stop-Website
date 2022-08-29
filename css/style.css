@@ -285,6 +285,15 @@ font-size: 20px;
     width: 100%;
 }
 
+.about-bg {
+    background-image: url(https://ruffgolf.se/wp-content/uploads/2021/06/steam-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 800px;
+    width: 100%;
+}
+
 .footer-area {
     padding-top: 100px;
     padding-bottom: 50px;
