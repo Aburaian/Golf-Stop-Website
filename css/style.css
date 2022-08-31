@@ -294,6 +294,10 @@ font-size: 20px;
     width: 100%;
 }
 
+.list-item {
+    list-style: none;
+}
+
 .footer-area {
     padding-top: 100px;
     padding-bottom: 50px;
