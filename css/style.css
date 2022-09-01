@@ -317,18 +317,35 @@ font-size: 20px;
     background-color: gray;
      }
 
-@media screen and (max-width: 480px) {
-    .hero {
-        width: 100%;
-    }
-     
-}
 
 
 @media only screen and (max-width: 768px) {
   header{
     width: 100%;
   }
+  .hero-title {
+    font-size: 18px;
+  }
+
+  .hero-sub-title {
+    font-size: 32px;
+    line-height: 50px;
+  
+} 
+
+.img-tour {
+    width: 100%;
+}
+
+ 
+}
+
+@media only screen and (max-width: 320px) {
+     header{
+    width: 100%;
+  }
+ 
+
 }
      
 
