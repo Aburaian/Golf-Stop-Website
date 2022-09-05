@@ -294,6 +294,41 @@ font-size: 20px;
     width: 100%;
 }
 
+.book-bg{
+     background-image: url(https://dailygazette.com/wp-content/uploads/fly-images/147446/web-muny-940x940.jpg
+);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 800px;
+    width: 100%;
+} 
+
+.benefit-bg {
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/5e4d9ea5765d4500072cb8be/0x0.jpg?format=jpg&width=1200
+);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 800px;
+    width: 100%;
+}
+
+.find-bg {
+    background-image: url(https://golfjourney365.com/wp-content/uploads/2020/03/Canva-Golf-balls-in-basket-and-golf-clubs-on-green-grass-for-practice-1024x683.jpg
+);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 800px;
+    width: 100%;
+}
+
+
+
+
+
+
 .list-item {
     list-style: none;
 }
