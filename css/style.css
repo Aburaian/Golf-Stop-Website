@@ -218,6 +218,9 @@ font-size: 24px;
     fill: #d07d54;
 
 }
+ .btn-golf:hover {
+    color: #FFFFFF !important;
+ }
 .btn-hover:hover {
 color: #FFFFFF !important;
 }
