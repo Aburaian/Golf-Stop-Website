@@ -200,7 +200,7 @@ font-size: 24px;
 
 .global-sub-title {
     color: #FFFFFF;
- font-size: 52px;
+    font-size: 52px;
     font-weight: 700;
     letter-spacing: -1px;
 }
@@ -254,7 +254,8 @@ font-size: 20px;
 
 
 .memberships {
-    background-image: url(https://ruffgolf.se/wp-content/uploads/2021/09/rectangle-186-1.jpg);
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)),
+    url(https://ruffgolf.se/wp-content/uploads/2021/09/rectangle-186-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -271,7 +272,7 @@ font-size: 20px;
 
 /* membership page css */
 .membership-bg-hero {
-   background-image: url(https://ruffgolf.se/wp-content/uploads/2021/06/medlemskap-header.jpg);
+   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://ruffgolf.se/wp-content/uploads/2021/06/medlemskap-header.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -280,7 +281,7 @@ font-size: 20px;
 }
 
 .food-bg {
-    background-image: url(https://playxgolf.com/wp-content/uploads/2021/09/X-Golf-Food-and-Bar-Cheers-min.jpg);
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://playxgolf.com/wp-content/uploads/2021/09/X-Golf-Food-and-Bar-Cheers-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -289,7 +290,7 @@ font-size: 20px;
 }
 
 .about-bg {
-    background-image: url(https://ruffgolf.se/wp-content/uploads/2021/06/steam-bg.jpg);
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://ruffgolf.se/wp-content/uploads/2021/06/steam-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -298,7 +299,7 @@ font-size: 20px;
 }
 
 .book-bg{
-     background-image: url(https://dailygazette.com/wp-content/uploads/fly-images/147446/web-muny-940x940.jpg
+     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://dailygazette.com/wp-content/uploads/fly-images/147446/web-muny-940x940.jpg
 );
     background-size: cover;
     background-repeat: no-repeat;
@@ -308,7 +309,7 @@ font-size: 20px;
 } 
 
 .benefit-bg {
-    background-image: url(https://imageio.forbes.com/specials-images/imageserve/5e4d9ea5765d4500072cb8be/0x0.jpg?format=jpg&width=1200
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://imageio.forbes.com/specials-images/imageserve/5e4d9ea5765d4500072cb8be/0x0.jpg?format=jpg&width=1200
 );
     background-size: cover;
     background-repeat: no-repeat;
@@ -318,7 +319,7 @@ font-size: 20px;
 }
 
 .find-bg {
-    background-image: url(https://golfjourney365.com/wp-content/uploads/2020/03/Canva-Golf-balls-in-basket-and-golf-clubs-on-green-grass-for-practice-1024x683.jpg
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(https://golfjourney365.com/wp-content/uploads/2020/03/Canva-Golf-balls-in-basket-and-golf-clubs-on-green-grass-for-practice-1024x683.jpg
 );
     background-size: cover;
     background-repeat: no-repeat;
