@@ -362,27 +362,33 @@ font-size: 20px;
   header{
     width: 100%;
   }
-  .hero-title {
-    font-size: 18px;
+  .hero-sub-title{
+    font-size: 16px;
   }
-
-  .hero-sub-title {
-    font-size: 32px;
-    line-height: 50px;
-  
-} 
-
-.img-tour {
+  .home-title {
+    font-size: 12px;
+  }
+  .img-tour {
     width: 100%;
 }
 
- 
-}
+  
+} 
+
 
 @media only screen and (max-width: 320px) {
      header{
     width: 100%;
   }
+  .hero-sub-title{
+    font-size: 12px;
+  }
+  .home-title {
+    font-size: 10px;
+  }
+  .img-tour {
+    width: 100%;
+}
  
 
 }
