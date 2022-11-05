@@ -365,7 +365,7 @@ font-size: 20px;
   .hero{
     padding-right: 50px;
     padding-left: 50px;
-    padding-top: 250px;
+    padding-top: 220px;
   }
   .hero-sub-title {
     font-size: 12px;
@@ -382,6 +382,7 @@ font-size: 20px;
   }
   .img-about{
     width: 100%;
+    height: auto;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -394,7 +395,7 @@ font-size: 20px;
   .hero{
     padding-right: 50px;
     padding-left: 50px;
-    padding-top: 250px;
+    padding-top: 220px;
   }
   .hero-sub-title {
     font-size: 12px;
@@ -411,6 +412,7 @@ font-size: 20px;
   }
   .img-about{
     width: 100%;
+    height: auto;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -423,7 +425,7 @@ font-size: 20px;
   .hero{
     padding-right: 50px;
     padding-left: 50px;
-    padding-top: 250px;
+    padding-top: 220px;
   }
   .hero-sub-title {
     font-size: 16px;
@@ -440,6 +442,7 @@ font-size: 20px;
   }
   .img-about{
     width: 100%;
+    height: auto;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
