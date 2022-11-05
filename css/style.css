@@ -355,13 +355,17 @@ font-size: 20px;
     color: #ffffff;
     background-color: gray;
      }
-
-@media (min-width: 320px) and (max-width: 480px) {
-  header {
+@media (min-width: 320px){
+    header {
     width: 100%;
   }
   section {
     width: 100%;
+  }
+  .hero{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 250px;
   }
   .hero-sub-title {
     font-size: 12px;
@@ -373,6 +377,41 @@ font-size: 20px;
   .img-tour {
     width: 100%;
   }
+  .img-area{
+    width: 100%;
+  }
+  .img-about{
+    width: 100%;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  header {
+    width: 100%;
+  }
+  section {
+    width: 100%;
+  }
+  .hero{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 250px;
+  }
+  .hero-sub-title {
+    font-size: 12px;
+    line-height: normal;
+  }
+  .home-title {
+    font-size: 10px;
+  }
+  .img-tour {
+    width: 100%;
+  }
+  .img-area{
+    width: 100%;
+  }
+  .img-about{
+    width: 100%;
+  }
 }
 @media (min-width: 481px) and (max-width: 768px) {
   header {
@@ -380,6 +419,11 @@ font-size: 20px;
   }
   section {
     width: 100%;
+  }
+  .hero{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 250px;
   }
   .hero-sub-title {
     font-size: 16px;
@@ -389,6 +433,12 @@ font-size: 20px;
     font-size: 12px;
   }
   .img-tour {
+    width: 100%;
+  }
+  .img-area{
+    width: 100%;
+  }
+  .img-about{
     width: 100%;
   }
 }
@@ -407,6 +457,12 @@ font-size: 20px;
     font-size: 10px;
   }
   .img-tour {
+    width: 100%;
+  }
+  .img-area{
+    width: 100%;
+  }
+  .img-about{
     width: 100%;
   }
 }
